@@ -1,0 +1,16 @@
+.letter {
+  font-family: sans-serif;
+  background-color: rgb(230, 195, 34);
+  padding: 2px 2px 2px 2px;
+  font-size: 55px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 5px #888888;
+  float: left;
+  margin: 8px;
+  cursor:move;
+  position:relative; /* important (all position that's not `static`) */
+}
